@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Poppins',sans-serif
 }
 .container{
-    background: #54F2F2;
+    background: linear-gradient(150deg, rgb(61, 61, 236),green);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,6 +14,7 @@
    
 }
 .main{
+    padding-top: 10px;
     width: 320px;
     height: 60vh;
     border: 1px solid black;
@@ -60,6 +61,7 @@
 .temp{
     height: 35%;
     font-size: 5vmin;
+    text-align: center;
 }
 .weather{
     height: 20%;
